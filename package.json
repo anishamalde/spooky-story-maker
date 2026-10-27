@@ -1,0 +1,16 @@
+{
+  "name": "spooky-story-maker",
+  "private": true,
+  "description": "Halloween build-your-own-story app for TV: web app + audio API on Vercel (web-app/), wrapped for Vega OS in a WebView (vega/).",
+  "scripts": {
+    "setup": "npm --prefix web-app run setup && npm --prefix vega install",
+    "dev": "npm --prefix web-app run dev",
+    "build:web": "npm --prefix web-app run build:web",
+    "deploy": "npm --prefix web-app run deploy",
+    "stories": "npm --prefix web-app run stories",
+    "sounds": "npm --prefix web-app run sounds",
+    "vega:build": "npm --prefix vega run build:release",
+    "vega:run": "vega run-app vega/build/aarch64-release/spookystorymaker_aarch64.vpkg",
+    "typecheck": "npm --prefix web-app run typecheck"
+  }
+}

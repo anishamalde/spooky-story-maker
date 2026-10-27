@@ -1,0 +1,83 @@
+{
+  "heroes": {
+    "witch": {
+      "name": "Little Witch",
+      "hello": "[excited] Abraca-boo! I'm Little Witch, and my broom only flies backwards!",
+      "catchphrase": "Abraca-boo!",
+      "trick": "hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles",
+      "trick_sfx": "magical sparkle swoosh flying past, cartoon, playful",
+      "party": "did backwards loop-the-loops on the broom until everyone cheered"
+    },
+    "ghost": {
+      "name": "Friendly Ghost",
+      "hello": "[giggles] Boo-hoo-hooray! I'm Friendly Ghost. Want to be friends?",
+      "catchphrase": "Boo-hoo-hooray!",
+      "trick": "began to glow, brighter and brighter, like the cosiest nightlight in the world",
+      "trick_sfx": "soft magical glow humming up, gentle bright chime at the end",
+      "party": "played the silliest game of peekaboo anyone had ever seen"
+    },
+    "pumpkin": {
+      "name": "Pumpkin Kid",
+      "hello": "[cheerfully] Gourd-geous! I'm Pumpkin Kid. My smile lights up the night!",
+      "catchphrase": "Gourd-geous!",
+      "trick": "flashed a great big glowing grin that lit up the whole place like a lantern",
+      "trick_sfx": "warm whoosh of a lantern lighting up, cheerful pop, cartoon",
+      "party": "led a wiggly pumpkin conga line all the way round and back again"
+    }
+  },
+  "places": {
+    "house": {
+      "name": "Haunted House",
+      "the": "Haunted House",
+      "line": "The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+      "arrive_sfx": "spooky cartoon house ambience, wind outside, distant friendly owl hoot",
+      "noise": "CREEEEAK.",
+      "noise_sfx": "a slow creaky wooden door opening, cartoon style",
+      "culprit": "a tiny mouse in a party hat, pushing the door open with a big pink cupcake",
+      "party_sfx": "cartoon party horn toot and small crowd cheering, kids Halloween"
+    },
+    "patch": {
+      "name": "Moonlit Pumpkin Patch",
+      "the": "Moonlit Pumpkin Patch",
+      "line": "There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+      "arrive_sfx": "night crickets chirping in a field, gentle breeze, calm",
+      "noise": "rustle, rustle... THUMP!",
+      "noise_sfx": "leaves rustling then a soft cartoon thump of a pumpkin rolling",
+      "culprit": "a sleepy little hedgehog, rolling a baby pumpkin along like a ball",
+      "party_sfx": "cheerful cartoon party horn and a quick happy fiddle flourish"
+    },
+    "woods": {
+      "name": "Whispering Woods",
+      "the": "Whispering Woods",
+      "line": "The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+      "arrive_sfx": "soft wind whistling through trees at night, leaves whispering",
+      "noise": "Whooo... whooo... WHOOOO!",
+      "noise_sfx": "a spooky wind howl that turns into a funny wobbly owl hoot",
+      "culprit": "a little owl in a striped scarf, practising the loudest hoot in the woods",
+      "party_sfx": "cartoon party horn and fireflies twinkling chime, happy crowd"
+    }
+  },
+  "sidekicks": {
+    "cat": {
+      "name": "Black Cat",
+      "hello_sfx": "a cute friendly cartoon cat meow",
+      "scared": "puffed up like a fuzzy black pom-pom, and every whisker went boing",
+      "scared_sfx": "startled cartoon cat yowl with a springy boing",
+      "happy": "purred so loudly it sounded like a tiny motorbike"
+    },
+    "bat": {
+      "name": "Bat",
+      "hello_sfx": "small bat wings flapping quickly with a cute tiny squeak",
+      "scared": "zipped behind {hero} and hung there upside down, with both eyes squeezed shut",
+      "scared_sfx": "fast nervous fluttering of small wings, tiny squeak, cartoon",
+      "happy": "did happy flips in the air"
+    },
+    "skeleton": {
+      "name": "Silly Skeleton",
+      "hello_sfx": "funny cartoon skeleton bones rattling like a xylophone",
+      "scared": "rattled so hard that a funny bone fell off and bounced away",
+      "scared_sfx": "cartoon bones rattling and clattering, one bone bouncing away boing",
+      "happy": "danced until every single bone jingled"
+    }
+  }
+}

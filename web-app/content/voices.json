@@ -1,0 +1,21 @@
+{
+  "narrator": {
+    "voiceId": "JBFqnCBsd6RMkjVDRZzb",
+    "note": "Narrator for the live story pages. Set the same ID as NARRATOR_VOICE_ID in proxy/wrangler.toml."
+  },
+  "witch": {
+    "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+    "design": "A cheeky, bubbly young girl witch with a playful cackle, bright and energetic, cartoon style, perfect for a kids' Halloween story",
+    "note": "Premade ElevenLabs voice 'Laura' (free plan can't use Voice Design). Clear voiceId to design one from the brief instead."
+  },
+  "ghost": {
+    "voiceId": "cgSgspJ2msm6clMCkdW9",
+    "design": "A soft, gentle, slightly echoey friendly little ghost, shy and sweet with a giggly voice, cartoon style for young children",
+    "note": "Premade ElevenLabs voice 'Jessica' (free plan can't use Voice Design). Clear voiceId to design one from the brief instead."
+  },
+  "pumpkin": {
+    "voiceId": "IKne3meq5aSn9XLyUdCD",
+    "design": "An enthusiastic, warm young kid with a goofy, upbeat voice, a little bit raspy like a jack-o-lantern, cartoon style for young children",
+    "note": "Premade ElevenLabs voice 'Charlie' (free plan can't use Voice Design). Clear voiceId to design one from the brief instead."
+  }
+}

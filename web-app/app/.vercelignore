@@ -1,0 +1,8 @@
+# Keep local secrets and build output out of the upload; Vercel builds dist/ itself.
+.env
+.env*.local
+node_modules
+dist
+.expo
+android
+ios

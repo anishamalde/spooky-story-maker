@@ -1,0 +1,12 @@
+node_modules/
+.expo/
+dist/
+web-build/
+web-app/app/android/
+web-app/app/ios/
+.env
+*.log
+.DS_Store
+.vercel/
+.env.local
+.env*.local

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Bat</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+body{margin:0}
+a{color:#F28C28}a:hover{color:#FFB25C}
+</style>
+</helmet>
+<div style="position: relative; width: 600px; height: 600px">
+<svg width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="A small round bat with big wings and tiny fangs" style="position: absolute; left: 0; top: 0">
+<g fill="#3B2A63" stroke="#7C64B8" stroke-width="5" stroke-linejoin="round">
+<path d="M230 300Q140 180 30 220Q70 260 60 300Q100 290 120 330Q150 310 180 350Q200 330 236 350Z"/>
+<path d="M370 300Q460 180 570 220Q530 260 540 300Q500 290 480 330Q450 310 420 350Q400 330 364 350Z"/>
+<path d="M232 220L220 140L272 196Z"/><path d="M368 220L380 140L328 196Z"/>
+<circle cx="300" cy="300" r="100"/>
+</g>
+<g fill="#F4978E"><path d="M234 206L228 160L260 196Z"/><path d="M366 206L372 160L340 196Z"/></g>
+<g fill="#FFF8EC"><circle cx="262" cy="282" r="30"/><circle cx="338" cy="282" r="30"/></g>
+<g fill="#2B1A4F"><circle cx="266" cy="288" r="16"/><circle cx="334" cy="288" r="16"/></g>
+<g fill="#FFFFFF"><circle cx="272" cy="280" r="6"/><circle cx="340" cy="280" r="6"/></g>
+<g fill="#F4978E" opacity="0.8"><ellipse cx="232" cy="326" rx="14" ry="8"/><ellipse cx="368" cy="326" rx="14" ry="8"/></g>
+<path d="M276 330Q300 352 324 330" fill="none" stroke="#FFF8EC" stroke-width="5" stroke-linecap="round"/>
+<g fill="#FFF8EC"><path d="M284 336L290 352L296 340Z"/><path d="M316 336L310 352L304 340Z"/></g>
+<g stroke="#7C64B8" stroke-width="8" stroke-linecap="round"><path d="M276 396L270 420M324 396L330 420"/></g>
+</svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":600,"height":600}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

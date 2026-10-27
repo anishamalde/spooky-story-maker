@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Spooky Story Maker",
+    "slug": "spooky-story-maker",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "backgroundColor": "#1B1640",
+    "plugins": [
+      [
+        "@react-native-tvos/config-tv",
+        {
+          "androidTVBanner": "./assets/images/icon-400x240.png",
+          "appleTVImages": {
+            "icon": "./assets/images/icon-1280x768.png",
+            "iconSmall": "./assets/images/icon-400x240.png",
+            "iconSmall2x": "./assets/images/icon-800x480.png",
+            "topShelf": "./assets/images/icon-1920x720.png",
+            "topShelf2x": "./assets/images/icon-3840x1440.png",
+            "topShelfWide": "./assets/images/icon-2320x720.png",
+            "topShelfWide2x": "./assets/images/icon-4640x1440.png"
+          }
+        }
+      ]
+    ],
+    "android": {
+      "splash": {
+        "image": "./assets/images/icon-1920x720.png"
+      },
+      "package": "com.spookystorymaker.tv"
+    },
+    "ios": {
+      "splash": {
+        "image": "./assets/images/icon-1920x720.png"
+      },
+      "bundleIdentifier": "com.spookystorymaker.tv"
+    },
+    "web": {
+      "name": "Spooky Story Maker",
+      "shortName": "Spooky Stories",
+      "description": "Build your own Halloween story: pick a hero, a place and a sidekick, and a narrator reads it aloud.",
+      "backgroundColor": "#1B1640",
+      "themeColor": "#1B1640",
+      "favicon": "./assets/images/icon-760x760.png",
+      "bundler": "metro",
+      "output": "single"
+    }
+  }
+}

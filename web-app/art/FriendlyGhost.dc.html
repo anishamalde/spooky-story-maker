@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Friendly Ghost</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+body{margin:0}
+a{color:#F28C28}a:hover{color:#FFB25C}
+</style>
+</helmet>
+<div style="position: relative; width: 600px; height: 600px">
+<svg width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Friendly Ghost waving hello" style="position: absolute; left: 0; top: 0">
+<ellipse cx="300" cy="580" rx="120" ry="12" fill="#000000" opacity="0.18"/>
+<path d="M186 330Q130 300 120 250Q150 270 190 280Z" fill="#FFF8EC" stroke="#D9D2F0" stroke-width="5" stroke-linejoin="round"/>
+<path d="M414 330Q470 330 490 380Q450 370 412 372Z" fill="#FFF8EC" stroke="#D9D2F0" stroke-width="5" stroke-linejoin="round"/>
+<path d="M180 300Q180 80 300 80Q420 80 420 300L420 520Q390 490 360 520Q330 550 300 520Q270 490 240 520Q210 550 180 520Z" fill="#FFF8EC" stroke="#D9D2F0" stroke-width="5" stroke-linejoin="round"/>
+<g fill="#2B1A4F"><ellipse cx="260" cy="230" rx="17" ry="25"/><ellipse cx="340" cy="230" rx="17" ry="25"/></g>
+<g fill="#FFFFFF"><circle cx="266" cy="220" r="6"/><circle cx="346" cy="220" r="6"/></g>
+<g fill="#F4978E" opacity="0.7"><ellipse cx="228" cy="276" rx="18" ry="10"/><ellipse cx="372" cy="276" rx="18" ry="10"/></g>
+<ellipse cx="300" cy="292" rx="16" ry="20" fill="#2B1A4F"/>
+<ellipse cx="300" cy="300" rx="9" ry="8" fill="#F4978E"/>
+</svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":600,"height":600}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>

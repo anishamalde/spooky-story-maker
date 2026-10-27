@@ -1,0 +1,23 @@
+{
+  "name": "spooky-story-maker-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "npm install && npm --prefix app install",
+    "dev": "npm --prefix app run dev",
+    "build:web": "npm --prefix app run build:web",
+    "deploy": "npm --prefix app run deploy",
+    "stories": "node scripts/build-stories.mjs",
+    "sounds": "tsx --env-file-if-exists=.env scripts/make-sounds.ts",
+    "art": "node scripts/render-art.mjs",
+    "typecheck": "tsc -p scripts && npm --prefix app run typecheck"
+  },
+  "devDependencies": {
+    "@elevenlabs/elevenlabs-js": "2.74.0",
+    "@types/node": "^22.0.0",
+    "playwright": "^1.64.1",
+    "tsx": "^4.20.0",
+    "typescript": "~5.9.0"
+  },
+  "description": "Spooky Story Maker web app (Expo), its Vercel /api, and the content, art and sound tooling."
+}

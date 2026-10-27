@@ -1,0 +1,967 @@
+{
+  "version": 1,
+  "choices": {
+    "heroes": [
+      {
+        "id": "witch",
+        "name": "Little Witch"
+      },
+      {
+        "id": "ghost",
+        "name": "Friendly Ghost"
+      },
+      {
+        "id": "pumpkin",
+        "name": "Pumpkin Kid"
+      }
+    ],
+    "places": [
+      {
+        "id": "house",
+        "name": "Haunted House"
+      },
+      {
+        "id": "patch",
+        "name": "Moonlit Pumpkin Patch"
+      },
+      {
+        "id": "woods",
+        "name": "Whispering Woods"
+      }
+    ],
+    "sidekicks": [
+      {
+        "id": "cat",
+        "name": "Black Cat"
+      },
+      {
+        "id": "bat",
+        "name": "Bat"
+      },
+      {
+        "id": "skeleton",
+        "name": "Silly Skeleton"
+      }
+    ]
+  },
+  "stories": {
+    "witch-house-cat": {
+      "id": "witch-house-cat",
+      "hero": "witch",
+      "place": "house",
+      "sidekick": "cat",
+      "title": "Little Witch, Black Cat and the Haunted House",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Little Witch and Black Cat went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "caption": "Once upon a Halloween night, Little Witch and Black Cat went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "sfx": "spooky cartoon house ambience, wind outside, distant friendly owl hoot"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] CREEEEAK.\n[excited] \"Who's there?\" said Little Witch.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... CREEEEAK. \"Who's there?\" said Little Witch.",
+          "sfx": "a slow creaky wooden door opening, cartoon style"
+        },
+        {
+          "text": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing.\n[nervously] \"I don't like this one bit,\" whispered Black Cat.\n[gently] \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "caption": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing. \"I don't like this one bit,\" whispered Black Cat. \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "sfx": "startled cartoon cat yowl with a springy boing"
+        },
+        {
+          "text": "[excited] \"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles.\nAnd there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake! [laughs]",
+          "caption": "\"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles. And there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake!",
+          "sfx": "magical sparkle swoosh flying past, cartoon, playful"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBlack Cat purred so loudly it sounded like a tiny motorbike, and Little Witch did backwards loop-the-loops on the broom until everyone cheered.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Black Cat purred so loudly it sounded like a tiny motorbike, and Little Witch did backwards loop-the-loops on the broom until everyone cheered. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn toot and small crowd cheering, kids Halloween"
+        }
+      ]
+    },
+    "witch-house-bat": {
+      "id": "witch-house-bat",
+      "hero": "witch",
+      "place": "house",
+      "sidekick": "bat",
+      "title": "Little Witch, Bat and the Haunted House",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Little Witch and Bat went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "caption": "Once upon a Halloween night, Little Witch and Bat went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "sfx": "spooky cartoon house ambience, wind outside, distant friendly owl hoot"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] CREEEEAK.\n[excited] \"Who's there?\" said Little Witch.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... CREEEEAK. \"Who's there?\" said Little Witch.",
+          "sfx": "a slow creaky wooden door opening, cartoon style"
+        },
+        {
+          "text": "Bat zipped behind Little Witch and hung there upside down, with both eyes squeezed shut.\n[nervously] \"I don't like this one bit,\" whispered Bat.\n[gently] \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "caption": "Bat zipped behind Little Witch and hung there upside down, with both eyes squeezed shut. \"I don't like this one bit,\" whispered Bat. \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "sfx": "fast nervous fluttering of small wings, tiny squeak, cartoon"
+        },
+        {
+          "text": "[excited] \"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles.\nAnd there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake! [laughs]",
+          "caption": "\"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles. And there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake!",
+          "sfx": "magical sparkle swoosh flying past, cartoon, playful"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBat did happy flips in the air, and Little Witch did backwards loop-the-loops on the broom until everyone cheered.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Bat did happy flips in the air, and Little Witch did backwards loop-the-loops on the broom until everyone cheered. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn toot and small crowd cheering, kids Halloween"
+        }
+      ]
+    },
+    "witch-house-skeleton": {
+      "id": "witch-house-skeleton",
+      "hero": "witch",
+      "place": "house",
+      "sidekick": "skeleton",
+      "title": "Little Witch, Silly Skeleton and the Haunted House",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Little Witch and Silly Skeleton went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "caption": "Once upon a Halloween night, Little Witch and Silly Skeleton went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "sfx": "spooky cartoon house ambience, wind outside, distant friendly owl hoot"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] CREEEEAK.\n[excited] \"Who's there?\" said Little Witch.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... CREEEEAK. \"Who's there?\" said Little Witch.",
+          "sfx": "a slow creaky wooden door opening, cartoon style"
+        },
+        {
+          "text": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away.\n[nervously] \"I don't like this one bit,\" whispered Silly Skeleton.\n[gently] \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "caption": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away. \"I don't like this one bit,\" whispered Silly Skeleton. \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "sfx": "cartoon bones rattling and clattering, one bone bouncing away boing"
+        },
+        {
+          "text": "[excited] \"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles.\nAnd there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake! [laughs]",
+          "caption": "\"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles. And there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake!",
+          "sfx": "magical sparkle swoosh flying past, cartoon, playful"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nSilly Skeleton danced until every single bone jingled, and Little Witch did backwards loop-the-loops on the broom until everyone cheered.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Silly Skeleton danced until every single bone jingled, and Little Witch did backwards loop-the-loops on the broom until everyone cheered. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn toot and small crowd cheering, kids Halloween"
+        }
+      ]
+    },
+    "witch-patch-cat": {
+      "id": "witch-patch-cat",
+      "hero": "witch",
+      "place": "patch",
+      "sidekick": "cat",
+      "title": "Little Witch, Black Cat and the Moonlit Pumpkin Patch",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Little Witch and Black Cat went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "caption": "Once upon a Halloween night, Little Witch and Black Cat went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "sfx": "night crickets chirping in a field, gentle breeze, calm"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] rustle, rustle... THUMP!\n[excited] \"Who's there?\" said Little Witch.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... rustle, rustle... THUMP! \"Who's there?\" said Little Witch.",
+          "sfx": "leaves rustling then a soft cartoon thump of a pumpkin rolling"
+        },
+        {
+          "text": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing.\n[nervously] \"I don't like this one bit,\" whispered Black Cat.\n[gently] \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "caption": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing. \"I don't like this one bit,\" whispered Black Cat. \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "sfx": "startled cartoon cat yowl with a springy boing"
+        },
+        {
+          "text": "[excited] \"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles.\nAnd there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball! [laughs]",
+          "caption": "\"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles. And there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball!",
+          "sfx": "magical sparkle swoosh flying past, cartoon, playful"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBlack Cat purred so loudly it sounded like a tiny motorbike, and Little Witch did backwards loop-the-loops on the broom until everyone cheered.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Black Cat purred so loudly it sounded like a tiny motorbike, and Little Witch did backwards loop-the-loops on the broom until everyone cheered. Happy Halloween, everybody. The end.",
+          "sfx": "cheerful cartoon party horn and a quick happy fiddle flourish"
+        }
+      ]
+    },
+    "witch-patch-bat": {
+      "id": "witch-patch-bat",
+      "hero": "witch",
+      "place": "patch",
+      "sidekick": "bat",
+      "title": "Little Witch, Bat and the Moonlit Pumpkin Patch",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Little Witch and Bat went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "caption": "Once upon a Halloween night, Little Witch and Bat went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "sfx": "night crickets chirping in a field, gentle breeze, calm"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] rustle, rustle... THUMP!\n[excited] \"Who's there?\" said Little Witch.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... rustle, rustle... THUMP! \"Who's there?\" said Little Witch.",
+          "sfx": "leaves rustling then a soft cartoon thump of a pumpkin rolling"
+        },
+        {
+          "text": "Bat zipped behind Little Witch and hung there upside down, with both eyes squeezed shut.\n[nervously] \"I don't like this one bit,\" whispered Bat.\n[gently] \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "caption": "Bat zipped behind Little Witch and hung there upside down, with both eyes squeezed shut. \"I don't like this one bit,\" whispered Bat. \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "sfx": "fast nervous fluttering of small wings, tiny squeak, cartoon"
+        },
+        {
+          "text": "[excited] \"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles.\nAnd there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball! [laughs]",
+          "caption": "\"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles. And there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball!",
+          "sfx": "magical sparkle swoosh flying past, cartoon, playful"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBat did happy flips in the air, and Little Witch did backwards loop-the-loops on the broom until everyone cheered.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Bat did happy flips in the air, and Little Witch did backwards loop-the-loops on the broom until everyone cheered. Happy Halloween, everybody. The end.",
+          "sfx": "cheerful cartoon party horn and a quick happy fiddle flourish"
+        }
+      ]
+    },
+    "witch-patch-skeleton": {
+      "id": "witch-patch-skeleton",
+      "hero": "witch",
+      "place": "patch",
+      "sidekick": "skeleton",
+      "title": "Little Witch, Silly Skeleton and the Moonlit Pumpkin Patch",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Little Witch and Silly Skeleton went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "caption": "Once upon a Halloween night, Little Witch and Silly Skeleton went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "sfx": "night crickets chirping in a field, gentle breeze, calm"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] rustle, rustle... THUMP!\n[excited] \"Who's there?\" said Little Witch.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... rustle, rustle... THUMP! \"Who's there?\" said Little Witch.",
+          "sfx": "leaves rustling then a soft cartoon thump of a pumpkin rolling"
+        },
+        {
+          "text": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away.\n[nervously] \"I don't like this one bit,\" whispered Silly Skeleton.\n[gently] \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "caption": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away. \"I don't like this one bit,\" whispered Silly Skeleton. \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "sfx": "cartoon bones rattling and clattering, one bone bouncing away boing"
+        },
+        {
+          "text": "[excited] \"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles.\nAnd there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball! [laughs]",
+          "caption": "\"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles. And there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball!",
+          "sfx": "magical sparkle swoosh flying past, cartoon, playful"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nSilly Skeleton danced until every single bone jingled, and Little Witch did backwards loop-the-loops on the broom until everyone cheered.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Silly Skeleton danced until every single bone jingled, and Little Witch did backwards loop-the-loops on the broom until everyone cheered. Happy Halloween, everybody. The end.",
+          "sfx": "cheerful cartoon party horn and a quick happy fiddle flourish"
+        }
+      ]
+    },
+    "witch-woods-cat": {
+      "id": "witch-woods-cat",
+      "hero": "witch",
+      "place": "woods",
+      "sidekick": "cat",
+      "title": "Little Witch, Black Cat and the Whispering Woods",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Little Witch and Black Cat went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "caption": "Once upon a Halloween night, Little Witch and Black Cat went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "sfx": "soft wind whistling through trees at night, leaves whispering"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] Whooo... whooo... WHOOOO!\n[excited] \"Who's there?\" said Little Witch.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... Whooo... whooo... WHOOOO! \"Who's there?\" said Little Witch.",
+          "sfx": "a spooky wind howl that turns into a funny wobbly owl hoot"
+        },
+        {
+          "text": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing.\n[nervously] \"I don't like this one bit,\" whispered Black Cat.\n[gently] \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "caption": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing. \"I don't like this one bit,\" whispered Black Cat. \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "sfx": "startled cartoon cat yowl with a springy boing"
+        },
+        {
+          "text": "[excited] \"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles.\nAnd there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods! [laughs]",
+          "caption": "\"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles. And there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods!",
+          "sfx": "magical sparkle swoosh flying past, cartoon, playful"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBlack Cat purred so loudly it sounded like a tiny motorbike, and Little Witch did backwards loop-the-loops on the broom until everyone cheered.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Black Cat purred so loudly it sounded like a tiny motorbike, and Little Witch did backwards loop-the-loops on the broom until everyone cheered. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn and fireflies twinkling chime, happy crowd"
+        }
+      ]
+    },
+    "witch-woods-bat": {
+      "id": "witch-woods-bat",
+      "hero": "witch",
+      "place": "woods",
+      "sidekick": "bat",
+      "title": "Little Witch, Bat and the Whispering Woods",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Little Witch and Bat went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "caption": "Once upon a Halloween night, Little Witch and Bat went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "sfx": "soft wind whistling through trees at night, leaves whispering"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] Whooo... whooo... WHOOOO!\n[excited] \"Who's there?\" said Little Witch.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... Whooo... whooo... WHOOOO! \"Who's there?\" said Little Witch.",
+          "sfx": "a spooky wind howl that turns into a funny wobbly owl hoot"
+        },
+        {
+          "text": "Bat zipped behind Little Witch and hung there upside down, with both eyes squeezed shut.\n[nervously] \"I don't like this one bit,\" whispered Bat.\n[gently] \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "caption": "Bat zipped behind Little Witch and hung there upside down, with both eyes squeezed shut. \"I don't like this one bit,\" whispered Bat. \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "sfx": "fast nervous fluttering of small wings, tiny squeak, cartoon"
+        },
+        {
+          "text": "[excited] \"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles.\nAnd there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods! [laughs]",
+          "caption": "\"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles. And there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods!",
+          "sfx": "magical sparkle swoosh flying past, cartoon, playful"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBat did happy flips in the air, and Little Witch did backwards loop-the-loops on the broom until everyone cheered.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Bat did happy flips in the air, and Little Witch did backwards loop-the-loops on the broom until everyone cheered. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn and fireflies twinkling chime, happy crowd"
+        }
+      ]
+    },
+    "witch-woods-skeleton": {
+      "id": "witch-woods-skeleton",
+      "hero": "witch",
+      "place": "woods",
+      "sidekick": "skeleton",
+      "title": "Little Witch, Silly Skeleton and the Whispering Woods",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Little Witch and Silly Skeleton went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "caption": "Once upon a Halloween night, Little Witch and Silly Skeleton went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "sfx": "soft wind whistling through trees at night, leaves whispering"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] Whooo... whooo... WHOOOO!\n[excited] \"Who's there?\" said Little Witch.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... Whooo... whooo... WHOOOO! \"Who's there?\" said Little Witch.",
+          "sfx": "a spooky wind howl that turns into a funny wobbly owl hoot"
+        },
+        {
+          "text": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away.\n[nervously] \"I don't like this one bit,\" whispered Silly Skeleton.\n[gently] \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "caption": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away. \"I don't like this one bit,\" whispered Silly Skeleton. \"Don't worry,\" said Little Witch. \"I know just what to do.\"",
+          "sfx": "cartoon bones rattling and clattering, one bone bouncing away boing"
+        },
+        {
+          "text": "[excited] \"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles.\nAnd there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods! [laughs]",
+          "caption": "\"Abraca-boo!\" shouted Little Witch, and hopped on the magic broom, which only flies backwards, and zoomed back-first into the dark with a trail of sparkles. And there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods!",
+          "sfx": "magical sparkle swoosh flying past, cartoon, playful"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nSilly Skeleton danced until every single bone jingled, and Little Witch did backwards loop-the-loops on the broom until everyone cheered.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Silly Skeleton danced until every single bone jingled, and Little Witch did backwards loop-the-loops on the broom until everyone cheered. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn and fireflies twinkling chime, happy crowd"
+        }
+      ]
+    },
+    "ghost-house-cat": {
+      "id": "ghost-house-cat",
+      "hero": "ghost",
+      "place": "house",
+      "sidekick": "cat",
+      "title": "Friendly Ghost, Black Cat and the Haunted House",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Friendly Ghost and Black Cat went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "caption": "Once upon a Halloween night, Friendly Ghost and Black Cat went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "sfx": "spooky cartoon house ambience, wind outside, distant friendly owl hoot"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] CREEEEAK.\n[excited] \"Who's there?\" said Friendly Ghost.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... CREEEEAK. \"Who's there?\" said Friendly Ghost.",
+          "sfx": "a slow creaky wooden door opening, cartoon style"
+        },
+        {
+          "text": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing.\n[nervously] \"I don't like this one bit,\" whispered Black Cat.\n[gently] \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "caption": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing. \"I don't like this one bit,\" whispered Black Cat. \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "sfx": "startled cartoon cat yowl with a springy boing"
+        },
+        {
+          "text": "[excited] \"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world.\nAnd there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake! [laughs]",
+          "caption": "\"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world. And there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake!",
+          "sfx": "soft magical glow humming up, gentle bright chime at the end"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBlack Cat purred so loudly it sounded like a tiny motorbike, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Black Cat purred so loudly it sounded like a tiny motorbike, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn toot and small crowd cheering, kids Halloween"
+        }
+      ]
+    },
+    "ghost-house-bat": {
+      "id": "ghost-house-bat",
+      "hero": "ghost",
+      "place": "house",
+      "sidekick": "bat",
+      "title": "Friendly Ghost, Bat and the Haunted House",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Friendly Ghost and Bat went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "caption": "Once upon a Halloween night, Friendly Ghost and Bat went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "sfx": "spooky cartoon house ambience, wind outside, distant friendly owl hoot"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] CREEEEAK.\n[excited] \"Who's there?\" said Friendly Ghost.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... CREEEEAK. \"Who's there?\" said Friendly Ghost.",
+          "sfx": "a slow creaky wooden door opening, cartoon style"
+        },
+        {
+          "text": "Bat zipped behind Friendly Ghost and hung there upside down, with both eyes squeezed shut.\n[nervously] \"I don't like this one bit,\" whispered Bat.\n[gently] \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "caption": "Bat zipped behind Friendly Ghost and hung there upside down, with both eyes squeezed shut. \"I don't like this one bit,\" whispered Bat. \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "sfx": "fast nervous fluttering of small wings, tiny squeak, cartoon"
+        },
+        {
+          "text": "[excited] \"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world.\nAnd there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake! [laughs]",
+          "caption": "\"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world. And there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake!",
+          "sfx": "soft magical glow humming up, gentle bright chime at the end"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBat did happy flips in the air, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Bat did happy flips in the air, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn toot and small crowd cheering, kids Halloween"
+        }
+      ]
+    },
+    "ghost-house-skeleton": {
+      "id": "ghost-house-skeleton",
+      "hero": "ghost",
+      "place": "house",
+      "sidekick": "skeleton",
+      "title": "Friendly Ghost, Silly Skeleton and the Haunted House",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Friendly Ghost and Silly Skeleton went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "caption": "Once upon a Halloween night, Friendly Ghost and Silly Skeleton went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "sfx": "spooky cartoon house ambience, wind outside, distant friendly owl hoot"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] CREEEEAK.\n[excited] \"Who's there?\" said Friendly Ghost.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... CREEEEAK. \"Who's there?\" said Friendly Ghost.",
+          "sfx": "a slow creaky wooden door opening, cartoon style"
+        },
+        {
+          "text": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away.\n[nervously] \"I don't like this one bit,\" whispered Silly Skeleton.\n[gently] \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "caption": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away. \"I don't like this one bit,\" whispered Silly Skeleton. \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "sfx": "cartoon bones rattling and clattering, one bone bouncing away boing"
+        },
+        {
+          "text": "[excited] \"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world.\nAnd there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake! [laughs]",
+          "caption": "\"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world. And there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake!",
+          "sfx": "soft magical glow humming up, gentle bright chime at the end"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nSilly Skeleton danced until every single bone jingled, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Silly Skeleton danced until every single bone jingled, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn toot and small crowd cheering, kids Halloween"
+        }
+      ]
+    },
+    "ghost-patch-cat": {
+      "id": "ghost-patch-cat",
+      "hero": "ghost",
+      "place": "patch",
+      "sidekick": "cat",
+      "title": "Friendly Ghost, Black Cat and the Moonlit Pumpkin Patch",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Friendly Ghost and Black Cat went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "caption": "Once upon a Halloween night, Friendly Ghost and Black Cat went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "sfx": "night crickets chirping in a field, gentle breeze, calm"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] rustle, rustle... THUMP!\n[excited] \"Who's there?\" said Friendly Ghost.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... rustle, rustle... THUMP! \"Who's there?\" said Friendly Ghost.",
+          "sfx": "leaves rustling then a soft cartoon thump of a pumpkin rolling"
+        },
+        {
+          "text": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing.\n[nervously] \"I don't like this one bit,\" whispered Black Cat.\n[gently] \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "caption": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing. \"I don't like this one bit,\" whispered Black Cat. \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "sfx": "startled cartoon cat yowl with a springy boing"
+        },
+        {
+          "text": "[excited] \"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world.\nAnd there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball! [laughs]",
+          "caption": "\"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world. And there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball!",
+          "sfx": "soft magical glow humming up, gentle bright chime at the end"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBlack Cat purred so loudly it sounded like a tiny motorbike, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Black Cat purred so loudly it sounded like a tiny motorbike, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen. Happy Halloween, everybody. The end.",
+          "sfx": "cheerful cartoon party horn and a quick happy fiddle flourish"
+        }
+      ]
+    },
+    "ghost-patch-bat": {
+      "id": "ghost-patch-bat",
+      "hero": "ghost",
+      "place": "patch",
+      "sidekick": "bat",
+      "title": "Friendly Ghost, Bat and the Moonlit Pumpkin Patch",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Friendly Ghost and Bat went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "caption": "Once upon a Halloween night, Friendly Ghost and Bat went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "sfx": "night crickets chirping in a field, gentle breeze, calm"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] rustle, rustle... THUMP!\n[excited] \"Who's there?\" said Friendly Ghost.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... rustle, rustle... THUMP! \"Who's there?\" said Friendly Ghost.",
+          "sfx": "leaves rustling then a soft cartoon thump of a pumpkin rolling"
+        },
+        {
+          "text": "Bat zipped behind Friendly Ghost and hung there upside down, with both eyes squeezed shut.\n[nervously] \"I don't like this one bit,\" whispered Bat.\n[gently] \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "caption": "Bat zipped behind Friendly Ghost and hung there upside down, with both eyes squeezed shut. \"I don't like this one bit,\" whispered Bat. \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "sfx": "fast nervous fluttering of small wings, tiny squeak, cartoon"
+        },
+        {
+          "text": "[excited] \"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world.\nAnd there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball! [laughs]",
+          "caption": "\"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world. And there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball!",
+          "sfx": "soft magical glow humming up, gentle bright chime at the end"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBat did happy flips in the air, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Bat did happy flips in the air, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen. Happy Halloween, everybody. The end.",
+          "sfx": "cheerful cartoon party horn and a quick happy fiddle flourish"
+        }
+      ]
+    },
+    "ghost-patch-skeleton": {
+      "id": "ghost-patch-skeleton",
+      "hero": "ghost",
+      "place": "patch",
+      "sidekick": "skeleton",
+      "title": "Friendly Ghost, Silly Skeleton and the Moonlit Pumpkin Patch",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Friendly Ghost and Silly Skeleton went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "caption": "Once upon a Halloween night, Friendly Ghost and Silly Skeleton went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "sfx": "night crickets chirping in a field, gentle breeze, calm"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] rustle, rustle... THUMP!\n[excited] \"Who's there?\" said Friendly Ghost.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... rustle, rustle... THUMP! \"Who's there?\" said Friendly Ghost.",
+          "sfx": "leaves rustling then a soft cartoon thump of a pumpkin rolling"
+        },
+        {
+          "text": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away.\n[nervously] \"I don't like this one bit,\" whispered Silly Skeleton.\n[gently] \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "caption": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away. \"I don't like this one bit,\" whispered Silly Skeleton. \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "sfx": "cartoon bones rattling and clattering, one bone bouncing away boing"
+        },
+        {
+          "text": "[excited] \"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world.\nAnd there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball! [laughs]",
+          "caption": "\"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world. And there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball!",
+          "sfx": "soft magical glow humming up, gentle bright chime at the end"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nSilly Skeleton danced until every single bone jingled, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Silly Skeleton danced until every single bone jingled, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen. Happy Halloween, everybody. The end.",
+          "sfx": "cheerful cartoon party horn and a quick happy fiddle flourish"
+        }
+      ]
+    },
+    "ghost-woods-cat": {
+      "id": "ghost-woods-cat",
+      "hero": "ghost",
+      "place": "woods",
+      "sidekick": "cat",
+      "title": "Friendly Ghost, Black Cat and the Whispering Woods",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Friendly Ghost and Black Cat went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "caption": "Once upon a Halloween night, Friendly Ghost and Black Cat went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "sfx": "soft wind whistling through trees at night, leaves whispering"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] Whooo... whooo... WHOOOO!\n[excited] \"Who's there?\" said Friendly Ghost.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... Whooo... whooo... WHOOOO! \"Who's there?\" said Friendly Ghost.",
+          "sfx": "a spooky wind howl that turns into a funny wobbly owl hoot"
+        },
+        {
+          "text": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing.\n[nervously] \"I don't like this one bit,\" whispered Black Cat.\n[gently] \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "caption": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing. \"I don't like this one bit,\" whispered Black Cat. \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "sfx": "startled cartoon cat yowl with a springy boing"
+        },
+        {
+          "text": "[excited] \"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world.\nAnd there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods! [laughs]",
+          "caption": "\"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world. And there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods!",
+          "sfx": "soft magical glow humming up, gentle bright chime at the end"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBlack Cat purred so loudly it sounded like a tiny motorbike, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Black Cat purred so loudly it sounded like a tiny motorbike, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn and fireflies twinkling chime, happy crowd"
+        }
+      ]
+    },
+    "ghost-woods-bat": {
+      "id": "ghost-woods-bat",
+      "hero": "ghost",
+      "place": "woods",
+      "sidekick": "bat",
+      "title": "Friendly Ghost, Bat and the Whispering Woods",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Friendly Ghost and Bat went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "caption": "Once upon a Halloween night, Friendly Ghost and Bat went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "sfx": "soft wind whistling through trees at night, leaves whispering"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] Whooo... whooo... WHOOOO!\n[excited] \"Who's there?\" said Friendly Ghost.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... Whooo... whooo... WHOOOO! \"Who's there?\" said Friendly Ghost.",
+          "sfx": "a spooky wind howl that turns into a funny wobbly owl hoot"
+        },
+        {
+          "text": "Bat zipped behind Friendly Ghost and hung there upside down, with both eyes squeezed shut.\n[nervously] \"I don't like this one bit,\" whispered Bat.\n[gently] \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "caption": "Bat zipped behind Friendly Ghost and hung there upside down, with both eyes squeezed shut. \"I don't like this one bit,\" whispered Bat. \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "sfx": "fast nervous fluttering of small wings, tiny squeak, cartoon"
+        },
+        {
+          "text": "[excited] \"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world.\nAnd there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods! [laughs]",
+          "caption": "\"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world. And there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods!",
+          "sfx": "soft magical glow humming up, gentle bright chime at the end"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBat did happy flips in the air, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Bat did happy flips in the air, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn and fireflies twinkling chime, happy crowd"
+        }
+      ]
+    },
+    "ghost-woods-skeleton": {
+      "id": "ghost-woods-skeleton",
+      "hero": "ghost",
+      "place": "woods",
+      "sidekick": "skeleton",
+      "title": "Friendly Ghost, Silly Skeleton and the Whispering Woods",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Friendly Ghost and Silly Skeleton went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "caption": "Once upon a Halloween night, Friendly Ghost and Silly Skeleton went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "sfx": "soft wind whistling through trees at night, leaves whispering"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] Whooo... whooo... WHOOOO!\n[excited] \"Who's there?\" said Friendly Ghost.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... Whooo... whooo... WHOOOO! \"Who's there?\" said Friendly Ghost.",
+          "sfx": "a spooky wind howl that turns into a funny wobbly owl hoot"
+        },
+        {
+          "text": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away.\n[nervously] \"I don't like this one bit,\" whispered Silly Skeleton.\n[gently] \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "caption": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away. \"I don't like this one bit,\" whispered Silly Skeleton. \"Don't worry,\" said Friendly Ghost. \"I know just what to do.\"",
+          "sfx": "cartoon bones rattling and clattering, one bone bouncing away boing"
+        },
+        {
+          "text": "[excited] \"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world.\nAnd there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods! [laughs]",
+          "caption": "\"Boo-hoo-hooray!\" shouted Friendly Ghost, and began to glow, brighter and brighter, like the cosiest nightlight in the world. And there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods!",
+          "sfx": "soft magical glow humming up, gentle bright chime at the end"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nSilly Skeleton danced until every single bone jingled, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Silly Skeleton danced until every single bone jingled, and Friendly Ghost played the silliest game of peekaboo anyone had ever seen. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn and fireflies twinkling chime, happy crowd"
+        }
+      ]
+    },
+    "pumpkin-house-cat": {
+      "id": "pumpkin-house-cat",
+      "hero": "pumpkin",
+      "place": "house",
+      "sidekick": "cat",
+      "title": "Pumpkin Kid, Black Cat and the Haunted House",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Pumpkin Kid and Black Cat went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "caption": "Once upon a Halloween night, Pumpkin Kid and Black Cat went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "sfx": "spooky cartoon house ambience, wind outside, distant friendly owl hoot"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] CREEEEAK.\n[excited] \"Who's there?\" said Pumpkin Kid.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... CREEEEAK. \"Who's there?\" said Pumpkin Kid.",
+          "sfx": "a slow creaky wooden door opening, cartoon style"
+        },
+        {
+          "text": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing.\n[nervously] \"I don't like this one bit,\" whispered Black Cat.\n[gently] \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "caption": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing. \"I don't like this one bit,\" whispered Black Cat. \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "sfx": "startled cartoon cat yowl with a springy boing"
+        },
+        {
+          "text": "[excited] \"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern.\nAnd there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake! [laughs]",
+          "caption": "\"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern. And there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake!",
+          "sfx": "warm whoosh of a lantern lighting up, cheerful pop, cartoon"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBlack Cat purred so loudly it sounded like a tiny motorbike, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Black Cat purred so loudly it sounded like a tiny motorbike, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn toot and small crowd cheering, kids Halloween"
+        }
+      ]
+    },
+    "pumpkin-house-bat": {
+      "id": "pumpkin-house-bat",
+      "hero": "pumpkin",
+      "place": "house",
+      "sidekick": "bat",
+      "title": "Pumpkin Kid, Bat and the Haunted House",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Pumpkin Kid and Bat went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "caption": "Once upon a Halloween night, Pumpkin Kid and Bat went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "sfx": "spooky cartoon house ambience, wind outside, distant friendly owl hoot"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] CREEEEAK.\n[excited] \"Who's there?\" said Pumpkin Kid.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... CREEEEAK. \"Who's there?\" said Pumpkin Kid.",
+          "sfx": "a slow creaky wooden door opening, cartoon style"
+        },
+        {
+          "text": "Bat zipped behind Pumpkin Kid and hung there upside down, with both eyes squeezed shut.\n[nervously] \"I don't like this one bit,\" whispered Bat.\n[gently] \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "caption": "Bat zipped behind Pumpkin Kid and hung there upside down, with both eyes squeezed shut. \"I don't like this one bit,\" whispered Bat. \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "sfx": "fast nervous fluttering of small wings, tiny squeak, cartoon"
+        },
+        {
+          "text": "[excited] \"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern.\nAnd there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake! [laughs]",
+          "caption": "\"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern. And there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake!",
+          "sfx": "warm whoosh of a lantern lighting up, cheerful pop, cartoon"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBat did happy flips in the air, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Bat did happy flips in the air, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn toot and small crowd cheering, kids Halloween"
+        }
+      ]
+    },
+    "pumpkin-house-skeleton": {
+      "id": "pumpkin-house-skeleton",
+      "hero": "pumpkin",
+      "place": "house",
+      "sidekick": "skeleton",
+      "title": "Pumpkin Kid, Silly Skeleton and the Haunted House",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Pumpkin Kid and Silly Skeleton went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "caption": "Once upon a Halloween night, Pumpkin Kid and Silly Skeleton went exploring in the Haunted House. The windows glowed yellow, the floorboards went creak, and the cobwebs sparkled like silver.",
+          "sfx": "spooky cartoon house ambience, wind outside, distant friendly owl hoot"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] CREEEEAK.\n[excited] \"Who's there?\" said Pumpkin Kid.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... CREEEEAK. \"Who's there?\" said Pumpkin Kid.",
+          "sfx": "a slow creaky wooden door opening, cartoon style"
+        },
+        {
+          "text": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away.\n[nervously] \"I don't like this one bit,\" whispered Silly Skeleton.\n[gently] \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "caption": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away. \"I don't like this one bit,\" whispered Silly Skeleton. \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "sfx": "cartoon bones rattling and clattering, one bone bouncing away boing"
+        },
+        {
+          "text": "[excited] \"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern.\nAnd there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake! [laughs]",
+          "caption": "\"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern. And there, making all that noise, was a tiny mouse in a party hat, pushing the door open with a big pink cupcake!",
+          "sfx": "warm whoosh of a lantern lighting up, cheerful pop, cartoon"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nSilly Skeleton danced until every single bone jingled, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Silly Skeleton danced until every single bone jingled, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn toot and small crowd cheering, kids Halloween"
+        }
+      ]
+    },
+    "pumpkin-patch-cat": {
+      "id": "pumpkin-patch-cat",
+      "hero": "pumpkin",
+      "place": "patch",
+      "sidekick": "cat",
+      "title": "Pumpkin Kid, Black Cat and the Moonlit Pumpkin Patch",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Pumpkin Kid and Black Cat went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "caption": "Once upon a Halloween night, Pumpkin Kid and Black Cat went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "sfx": "night crickets chirping in a field, gentle breeze, calm"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] rustle, rustle... THUMP!\n[excited] \"Who's there?\" said Pumpkin Kid.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... rustle, rustle... THUMP! \"Who's there?\" said Pumpkin Kid.",
+          "sfx": "leaves rustling then a soft cartoon thump of a pumpkin rolling"
+        },
+        {
+          "text": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing.\n[nervously] \"I don't like this one bit,\" whispered Black Cat.\n[gently] \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "caption": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing. \"I don't like this one bit,\" whispered Black Cat. \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "sfx": "startled cartoon cat yowl with a springy boing"
+        },
+        {
+          "text": "[excited] \"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern.\nAnd there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball! [laughs]",
+          "caption": "\"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern. And there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball!",
+          "sfx": "warm whoosh of a lantern lighting up, cheerful pop, cartoon"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBlack Cat purred so loudly it sounded like a tiny motorbike, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Black Cat purred so loudly it sounded like a tiny motorbike, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again. Happy Halloween, everybody. The end.",
+          "sfx": "cheerful cartoon party horn and a quick happy fiddle flourish"
+        }
+      ]
+    },
+    "pumpkin-patch-bat": {
+      "id": "pumpkin-patch-bat",
+      "hero": "pumpkin",
+      "place": "patch",
+      "sidekick": "bat",
+      "title": "Pumpkin Kid, Bat and the Moonlit Pumpkin Patch",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Pumpkin Kid and Bat went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "caption": "Once upon a Halloween night, Pumpkin Kid and Bat went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "sfx": "night crickets chirping in a field, gentle breeze, calm"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] rustle, rustle... THUMP!\n[excited] \"Who's there?\" said Pumpkin Kid.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... rustle, rustle... THUMP! \"Who's there?\" said Pumpkin Kid.",
+          "sfx": "leaves rustling then a soft cartoon thump of a pumpkin rolling"
+        },
+        {
+          "text": "Bat zipped behind Pumpkin Kid and hung there upside down, with both eyes squeezed shut.\n[nervously] \"I don't like this one bit,\" whispered Bat.\n[gently] \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "caption": "Bat zipped behind Pumpkin Kid and hung there upside down, with both eyes squeezed shut. \"I don't like this one bit,\" whispered Bat. \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "sfx": "fast nervous fluttering of small wings, tiny squeak, cartoon"
+        },
+        {
+          "text": "[excited] \"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern.\nAnd there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball! [laughs]",
+          "caption": "\"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern. And there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball!",
+          "sfx": "warm whoosh of a lantern lighting up, cheerful pop, cartoon"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBat did happy flips in the air, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Bat did happy flips in the air, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again. Happy Halloween, everybody. The end.",
+          "sfx": "cheerful cartoon party horn and a quick happy fiddle flourish"
+        }
+      ]
+    },
+    "pumpkin-patch-skeleton": {
+      "id": "pumpkin-patch-skeleton",
+      "hero": "pumpkin",
+      "place": "patch",
+      "sidekick": "skeleton",
+      "title": "Pumpkin Kid, Silly Skeleton and the Moonlit Pumpkin Patch",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Pumpkin Kid and Silly Skeleton went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "caption": "Once upon a Halloween night, Pumpkin Kid and Silly Skeleton went exploring in the Moonlit Pumpkin Patch. There were rows and rows of glowing pumpkins, all grinning in the moonlight.",
+          "sfx": "night crickets chirping in a field, gentle breeze, calm"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] rustle, rustle... THUMP!\n[excited] \"Who's there?\" said Pumpkin Kid.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... rustle, rustle... THUMP! \"Who's there?\" said Pumpkin Kid.",
+          "sfx": "leaves rustling then a soft cartoon thump of a pumpkin rolling"
+        },
+        {
+          "text": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away.\n[nervously] \"I don't like this one bit,\" whispered Silly Skeleton.\n[gently] \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "caption": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away. \"I don't like this one bit,\" whispered Silly Skeleton. \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "sfx": "cartoon bones rattling and clattering, one bone bouncing away boing"
+        },
+        {
+          "text": "[excited] \"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern.\nAnd there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball! [laughs]",
+          "caption": "\"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern. And there, making all that noise, was a sleepy little hedgehog, rolling a baby pumpkin along like a ball!",
+          "sfx": "warm whoosh of a lantern lighting up, cheerful pop, cartoon"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nSilly Skeleton danced until every single bone jingled, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Silly Skeleton danced until every single bone jingled, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again. Happy Halloween, everybody. The end.",
+          "sfx": "cheerful cartoon party horn and a quick happy fiddle flourish"
+        }
+      ]
+    },
+    "pumpkin-woods-cat": {
+      "id": "pumpkin-woods-cat",
+      "hero": "pumpkin",
+      "place": "woods",
+      "sidekick": "cat",
+      "title": "Pumpkin Kid, Black Cat and the Whispering Woods",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Pumpkin Kid and Black Cat went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "caption": "Once upon a Halloween night, Pumpkin Kid and Black Cat went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "sfx": "soft wind whistling through trees at night, leaves whispering"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] Whooo... whooo... WHOOOO!\n[excited] \"Who's there?\" said Pumpkin Kid.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... Whooo... whooo... WHOOOO! \"Who's there?\" said Pumpkin Kid.",
+          "sfx": "a spooky wind howl that turns into a funny wobbly owl hoot"
+        },
+        {
+          "text": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing.\n[nervously] \"I don't like this one bit,\" whispered Black Cat.\n[gently] \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "caption": "Black Cat puffed up like a fuzzy black pom-pom, and every whisker went boing. \"I don't like this one bit,\" whispered Black Cat. \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "sfx": "startled cartoon cat yowl with a springy boing"
+        },
+        {
+          "text": "[excited] \"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern.\nAnd there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods! [laughs]",
+          "caption": "\"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern. And there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods!",
+          "sfx": "warm whoosh of a lantern lighting up, cheerful pop, cartoon"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBlack Cat purred so loudly it sounded like a tiny motorbike, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Black Cat purred so loudly it sounded like a tiny motorbike, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn and fireflies twinkling chime, happy crowd"
+        }
+      ]
+    },
+    "pumpkin-woods-bat": {
+      "id": "pumpkin-woods-bat",
+      "hero": "pumpkin",
+      "place": "woods",
+      "sidekick": "bat",
+      "title": "Pumpkin Kid, Bat and the Whispering Woods",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Pumpkin Kid and Bat went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "caption": "Once upon a Halloween night, Pumpkin Kid and Bat went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "sfx": "soft wind whistling through trees at night, leaves whispering"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] Whooo... whooo... WHOOOO!\n[excited] \"Who's there?\" said Pumpkin Kid.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... Whooo... whooo... WHOOOO! \"Who's there?\" said Pumpkin Kid.",
+          "sfx": "a spooky wind howl that turns into a funny wobbly owl hoot"
+        },
+        {
+          "text": "Bat zipped behind Pumpkin Kid and hung there upside down, with both eyes squeezed shut.\n[nervously] \"I don't like this one bit,\" whispered Bat.\n[gently] \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "caption": "Bat zipped behind Pumpkin Kid and hung there upside down, with both eyes squeezed shut. \"I don't like this one bit,\" whispered Bat. \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "sfx": "fast nervous fluttering of small wings, tiny squeak, cartoon"
+        },
+        {
+          "text": "[excited] \"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern.\nAnd there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods! [laughs]",
+          "caption": "\"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern. And there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods!",
+          "sfx": "warm whoosh of a lantern lighting up, cheerful pop, cartoon"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nBat did happy flips in the air, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Bat did happy flips in the air, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn and fireflies twinkling chime, happy crowd"
+        }
+      ]
+    },
+    "pumpkin-woods-skeleton": {
+      "id": "pumpkin-woods-skeleton",
+      "hero": "pumpkin",
+      "place": "woods",
+      "sidekick": "skeleton",
+      "title": "Pumpkin Kid, Silly Skeleton and the Whispering Woods",
+      "pages": [
+        {
+          "text": "[warmly] Once upon a Halloween night, Pumpkin Kid and Silly Skeleton went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "caption": "Once upon a Halloween night, Pumpkin Kid and Silly Skeleton went exploring in the Whispering Woods. The twisty trees swayed and whispered, and fireflies blinked on and off like tiny stars.",
+          "sfx": "soft wind whistling through trees at night, leaves whispering"
+        },
+        {
+          "text": "[whispers] They tiptoed further in, step by step. Then, from somewhere in the dark... [pause] Whooo... whooo... WHOOOO!\n[excited] \"Who's there?\" said Pumpkin Kid.",
+          "caption": "They tiptoed further in, step by step. Then, from somewhere in the dark... Whooo... whooo... WHOOOO! \"Who's there?\" said Pumpkin Kid.",
+          "sfx": "a spooky wind howl that turns into a funny wobbly owl hoot"
+        },
+        {
+          "text": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away.\n[nervously] \"I don't like this one bit,\" whispered Silly Skeleton.\n[gently] \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "caption": "Silly Skeleton rattled so hard that a funny bone fell off and bounced away. \"I don't like this one bit,\" whispered Silly Skeleton. \"Don't worry,\" said Pumpkin Kid. \"I know just what to do.\"",
+          "sfx": "cartoon bones rattling and clattering, one bone bouncing away boing"
+        },
+        {
+          "text": "[excited] \"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern.\nAnd there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods! [laughs]",
+          "caption": "\"Gourd-geous!\" shouted Pumpkin Kid, and flashed a great big glowing grin that lit up the whole place like a lantern. And there, making all that noise, was a little owl in a striped scarf, practising the loudest hoot in the woods!",
+          "sfx": "warm whoosh of a lantern lighting up, cheerful pop, cartoon"
+        },
+        {
+          "text": "[happily] It was a Halloween party, and everyone was invited!\nSilly Skeleton danced until every single bone jingled, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again.\n[warmly] Happy Halloween, everybody. [whispers] The end.",
+          "caption": "It was a Halloween party, and everyone was invited! Silly Skeleton danced until every single bone jingled, and Pumpkin Kid led a wiggly pumpkin conga line all the way round and back again. Happy Halloween, everybody. The end.",
+          "sfx": "cartoon party horn and fireflies twinkling chime, happy crowd"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Silly Skeleton</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+body{margin:0}
+a{color:#F28C28}a:hover{color:#FFB25C}
+</style>
+</helmet>
+<div style="position: relative; width: 600px; height: 600px">
+<svg width="600" height="600" viewBox="0 0 600 600" role="img" aria-label="Silly Skeleton waving both arms and wearing an orange bow tie" style="position: absolute; left: 0; top: 0">
+<g stroke="#FFF8EC" stroke-linecap="round" fill="none">
+<path d="M300 250V430" stroke-width="16"/>
+<path d="M248 290Q300 310 352 290M244 324Q300 344 356 324M250 358Q300 376 350 358" stroke-width="12"/>
+<path d="M258 270L190 230L150 150" stroke-width="14"/>
+<path d="M342 270L410 230L450 150" stroke-width="14"/>
+<path d="M276 450L262 520L250 570" stroke-width="14"/>
+<path d="M324 450L338 520L350 570" stroke-width="14"/>
+</g>
+<g fill="#FFF8EC">
+<circle cx="190" cy="230" r="12"/><circle cx="410" cy="230" r="12"/>
+<circle cx="146" cy="140" r="18"/><circle cx="454" cy="140" r="18"/>
+<circle cx="262" cy="520" r="11"/><circle cx="338" cy="520" r="11"/>
+<ellipse cx="236" cy="576" rx="28" ry="12"/><ellipse cx="364" cy="576" rx="28" ry="12"/>
+<path d="M256 430H344L330 462H270Z"/>
+</g>
+<path d="M240 236Q240 270 270 274H330Q360 270 360 236Z" fill="#FFF8EC"/>
+<circle cx="300" cy="170" r="84" fill="#FFF8EC"/>
+<g fill="#2B1A4F"><ellipse cx="266" cy="170" rx="24" ry="28"/><ellipse cx="334" cy="170" rx="24" ry="28"/></g>
+<g fill="#FFFFFF"><circle cx="270" cy="176" r="8"/><circle cx="330" cy="176" r="8"/></g>
+<path d="M292 212L308 212L300 198Z" fill="#2B1A4F"/>
+<path d="M256 236Q300 262 344 236" fill="none" stroke="#2B1A4F" stroke-width="5" stroke-linecap="round"/>
+<g stroke="#2B1A4F" stroke-width="3"><path d="M278 244V256M300 248V262M322 244V256"/></g>
+<path d="M300 282L262 264V300ZM300 282L338 264V300Z" fill="#F28C28"/>
+<circle cx="300" cy="282" r="9" fill="#E07A1A"/>
+</svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":600,"height":600}}'>
+class Component extends DCLogic {
+renderVals() {
+return {};
+}
+}
+</script>
+</body>
+</html>
