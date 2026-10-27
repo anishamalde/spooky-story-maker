@@ -1,3 +1,4 @@
+import { Ionicons } from '@expo/vector-icons';
 import { AudioPlayer, AudioStatus, createAudioPlayer } from 'expo-audio';
 import { useEffect, useRef, useState } from 'react';
 import { Animated, Easing, Image, StyleSheet, Text, View } from 'react-native';
@@ -6,7 +7,7 @@ import { sfxUrl, ttsUrl } from '../config';
 import { art, Story } from '../content';
 import { useRemote } from '../remote';
 import { colors, fonts, safe } from '../theme';
-import { Scene, useScale } from '../ui';
+import { Focusable, Scene, useScale } from '../ui';
 
 const SPELLBOOK_MIN_MS = 1500;
 const START_TIMEOUT_MS = 20_000; // narration that hasn't started by now counts as failed
@@ -146,8 +147,9 @@ export function StoryPlayer({ story, pickedAt, onDone }: Props) {
     setPaused(!paused);
   };
 
+  // Select presses the on-screen Pause button, so only the remote's Play/Pause key is handled here.
   useRemote((key) => {
-    if (key === 'playPause' || key === 'select') togglePause();
+    if (key === 'playPause') togglePause();
     if (key === 'right' && !paused && !opening) {
       current()?.pause();
       startPage(step.current.page + 1);
@@ -185,11 +187,30 @@ export function StoryPlayer({ story, pickedAt, onDone }: Props) {
       {paused && (
         <View style={styles.pausedOverlay}>
           <Text style={[styles.paused, { fontSize: s(120) }]}>Paused</Text>
-          <Text style={[styles.hint, { fontSize: s(40) }]}>Press Play to keep listening</Text>
+          <Text style={[styles.hint, { fontSize: s(40) }]}>Press Select or Play to keep listening</Text>
         </View>
       )}
+      <View style={{ position: 'absolute', top: s(50), right: s(60) }}>
+        <Focusable
+          label={paused ? 'Play' : 'Pause'}
+          onPress={togglePause}
+          preferred
+          style={{
+            flexDirection: 'row',
+            alignItems: 'center',
+            gap: s(16),
+            backgroundColor: colors.orange,
+            borderRadius: s(50),
+            paddingHorizontal: s(44),
+            paddingVertical: s(18),
+          }}
+        >
+          <Ionicons name={paused ? 'play' : 'pause'} size={s(48)} color={colors.deep} />
+          <Text style={[styles.buttonText, { fontSize: s(44) }]}>{paused ? 'Play' : 'Pause'}</Text>
+        </Focusable>
+      </View>
       {__DEV__ && firstAudioMs !== null && (
-        <Text style={[styles.debug, { fontSize: s(24), top: s(30), right: s(60) }]}>first audio {firstAudioMs} ms</Text>
+        <Text style={[styles.debug, { fontSize: s(24), top: s(30), left: s(60) }]}>first audio {firstAudioMs} ms</Text>
       )}
     </Scene>
   );
@@ -274,5 +295,6 @@ const styles = StyleSheet.create({
   },
   paused: { fontFamily: fonts.display, color: colors.orange },
   hint: { fontFamily: fonts.body, color: colors.cream, textAlign: 'center' },
+  buttonText: { fontFamily: fonts.body, color: colors.deep },
   debug: { position: 'absolute', fontFamily: fonts.body, color: colors.lime },
 });

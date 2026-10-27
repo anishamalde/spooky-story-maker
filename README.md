@@ -88,7 +88,7 @@ see [web-app/app/README.md](web-app/app/README.md#deploy-to-vercel).
 | --- | --- |
 | Title | Select = start |
 | Pick a hero / place / sidekick | Left/Right = move (plays that choice's sound), Select = pick, Back = previous screen |
-| Story | Play/Pause or Select = pause, Right = skip page, Back = exit |
+| Story | Select = the on-screen Pause/Play button, Play/Pause = pause, Right = skip page, Back = exit |
 | The End | Replay or Make Another |
 
 In a browser: arrows move, Enter is Select, Space is Play/Pause, Escape is Back.
