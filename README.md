@@ -1,5 +1,7 @@
 # Spooky Story Maker
 
+**Watch it running on Vega:** [media/vega-demo.mov](media/vega-demo.mov) (turn the sound on)
+
 A Halloween build-your-own-story app for TV. Kids pick a hero, a place and a
 sidekick with the remote, and an [ElevenLabs](https://elevenlabs.io) narrator
 reads the story aloud, with sound effects and music underneath.
